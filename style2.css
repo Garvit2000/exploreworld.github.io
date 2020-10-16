@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Baloo Bhai 2', cursive;
+    transition: all .5s ease;
+  
+}
+
+/* navigation bar */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color:rgb(228, 138, 122); */
+}
+#Exp{
+    margin: 10px 10px;
+    text-decoration: none;
+}
+#Exp a{
+    text-decoration: none;
+    color: white;
+}
+#rightnav{
+    display: flex;
+    margin-right: 20px;
+}
+li a{
+    text-decoration: none;
+    padding: 1px 6px;
+    color: white;
+}
+ li a:hover{
+    background-color: rgb(96, 111, 124);
+    border-radius: 5px;
+    
+}
+#rightnav li{
+list-style: none;
+margin: 10px 10px;
+
+}
+
+section{
+    display: block;
+    width: 400px;
+    line-height: 25px;
+    margin: 100px 200px;
+    font-size: 25px;
+  animation-name: welcome;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* border: 1px solid white; */
+  padding: 20px 0px 0px 20px;
+  color: white;
+}
+@keyframes welcome{
+    from{
+margin: 100px 0px;
+    }
+    to{
+        margin: 100px 200px;
+    }
+}
+#uppersection{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/pexels-mirsad-mujanovic-691034.jpg) no-repeat ;
+    position: relative;
+    background-size: cover;
+    background-position:center;
+
+}
+#butn{
+    display: block;
+    width: 200px;
+    margin:30px 100px;
+    top: 5%;
+   
+}
+button{
+    border: 1px solid rgb(93, 170, 241);
+    background: transparent;
+    padding: 2px 5px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+}
+button:hover{
+    background-color:rgb(202, 201, 201);
+    color:rgb(70, 47, 47)
+}
+#dest{
+    color:black !important;
+    width: 400px;
+    display: flex;
+    margin:15px auto;
+    border:2px solid black;
+    justify-content: center;
+}
